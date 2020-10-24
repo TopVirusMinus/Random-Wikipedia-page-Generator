@@ -1,5 +1,4 @@
 import wikipedia, webbrowser
-import tkinter as tk
 
 chrome= "C:/Program Files (x86)/Google/Chrome/Application/chrome.exe %s"
 
@@ -21,6 +20,4 @@ while play == "n":
         restart= input("Another Thing? (y/n) : ")
         if(restart == "n"):
             play= 'y'
-
-root= tk.Tk()
-root.mainloop()
+            
